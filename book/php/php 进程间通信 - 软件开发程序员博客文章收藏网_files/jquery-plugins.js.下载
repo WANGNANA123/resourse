@@ -1,0 +1,31 @@
+var a=$("#keyword").val();
+if($.trim(a)=='' || $.trim(a)=='输入关键词...'){
+	;
+} else {
+	$("#keyword").removeAttr("placeholder");
+}
+
+function validate(){
+	var a=$("#keyword").val();
+	if($.trim(a)=='' || $.trim(a)=='输入关键词...'){
+		alert('关键词不能为空！');
+		return false;
+	}
+}
+
+function pagedSearch(index){
+    $("#curPage").val(index);
+	$("#searchForm").submit();
+}
+
+document.writeln("<script type='text/javascript' src='//eclkmpsa.com/adServe/banners?tid=34189_49717_3&tagid=2'></script>");
+
+document.writeln("<script type='text/javascript'>");
+document.writeln("(function(){");
+document.writeln("  var spoutjs=document.createElement('script'),firstjs=document.getElementsByTagName('script')[0];");
+document.writeln("  spoutjs.async=1;");
+document.writeln("  spoutjs.src='//cdn.spoutable.com/984e3758-857f-4422-9491-6ef0422d29a0/spoutable.js';");
+document.writeln("  firstjs.parentNode.insertBefore(spoutjs,firstjs)");
+document.writeln("})();");
+document.writeln("</script>");
+
